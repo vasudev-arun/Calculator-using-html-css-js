@@ -102,7 +102,7 @@ function buttonclick(val){
                     break;
                 }
                 case 4:{
-                    result= parseInt(num1)+ parseInt(num2);
+                    result= parseFloat(num1)+ parseFloat(num2);
                     document.getElementById("screen").value=result;
                     break;
                 }
