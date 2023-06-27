@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 .calc{
+    border-radius: 50px ;
     width: 400px;
     height: 440px;
-    background-color: rgb(2, 33, 72);
+    background-color: darkgrey;
     margin-left: 100px;
     margin-top: 35px;
     
 }
 #screen {
     width: 80%;
+    border-radius: 5px ;
     margin-left: 37px;
     height: 60px;
     margin-top: 20px;
     pointer-events: none;
-    font-size: 50px;
     text-align: right;
-    background-color: rgb(169, 246, 92);
-    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size:50px;
+    background-color: rgb(72 200 112);
+   font-family: 'Orbitron', sans-serif;
 }
 .btn {
     height: 50px;
@@ -28,10 +31,11 @@
     border-radius: 30%;
 }
 .heading{
-    padding-left: 150px;
+    text-align: center;
+    letter-spacing:2px;
     padding-top: 15px;
     color: rgb(255, 255, 255);
-    text-decoration:wavy;
+    text-decoration: wavy;
     text-orientation: sideways;
     font-size: larger;
     font-weight: bold;
